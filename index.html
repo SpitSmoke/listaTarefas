@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Lista de Tarefas</title>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Lista de Tarefas</h1>
+    
+    <form id="taskForm">
+      <label for="taskName">Nome da Tarefa:</label>
+      <input type="text" id="taskName" required>
+      <button type="button" onclick="addTask()">Adicionar Tarefa</button>
+    </form>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</body>
+</html>
